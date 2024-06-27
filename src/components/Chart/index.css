@@ -1,0 +1,55 @@
+/* src/components/index.css */
+
+.chart-container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    width: 90%;
+  }
+  
+  .chart-container:hover {
+    transform: scale(1.02);
+  }
+  
+  .btn-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #8884d8;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: #8884d8;
+    border: 2px solid #8884d8;
+  }
+  
+  @media (max-width: 768px) {
+    .chart-container {
+      width: 95%;
+      padding: 10px;
+    }
+  
+    .btn {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
